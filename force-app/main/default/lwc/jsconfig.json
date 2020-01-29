@@ -2,7 +2,17 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/configuration": [
+                "configuration/configuration.js"
+            ],
+            "c/jiraIssue": [
+                "jiraIssue/jiraIssue.js"
+            ],
+            "c/jiraApp": [
+                "jiraApp/jiraApp.js"
+            ]
+        }
     },
     "include": [
         "**/*",

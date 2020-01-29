@@ -1,0 +1,9 @@
+<template>
+    {logeIn} -- 
+    <template if:true={logeIn}>
+        <c-jira-issue></c-jira-issue>
+    </template>
+    <template if:false={logeIn}>
+        <c-configuration onloged={handleLogedIn} ></c-configuration>
+    </template>
+</template>
